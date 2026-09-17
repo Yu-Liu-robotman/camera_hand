@@ -1,1 +1,0 @@
-/home/user/LY/camera_hand/aprilTag-ros2/src/aruco_ros/aruco_msgs/msg/Marker.msg

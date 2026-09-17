@@ -1,4 +1,0 @@
-Invoking command in '/home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros': CMAKE_PREFIX_PATH=/opt/ros/iron CONDA_PROMPT_MODIFIER=(handeye) /usr/bin/cmake --build /home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros -- -j32 -l32
-Invoked command in '/home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron CONDA_PROMPT_MODIFIER=(handeye) /usr/bin/cmake --build /home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros -- -j32 -l32
-Invoking command in '/home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros': CMAKE_PREFIX_PATH=/opt/ros/iron CONDA_PROMPT_MODIFIER=(handeye) /usr/bin/cmake --install /home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros
-Invoked command in '/home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron CONDA_PROMPT_MODIFIER=(handeye) /usr/bin/cmake --install /home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros

@@ -1,1 +1,0 @@
-/home/user/LY/camera_hand/aprilTag-ros2/src/aruco_ros/aruco/include/aruco/cvdrawingutils.h

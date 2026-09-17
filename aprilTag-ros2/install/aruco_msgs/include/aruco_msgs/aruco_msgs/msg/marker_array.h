@@ -1,1 +1,0 @@
-/home/user/LY/camera_hand/aprilTag-ros2/build/aruco_msgs/rosidl_generator_c/aruco_msgs/msg/marker_array.h
