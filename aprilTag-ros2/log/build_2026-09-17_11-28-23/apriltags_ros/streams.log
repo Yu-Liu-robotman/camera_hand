@@ -1,0 +1,35 @@
+[0.007s] Invoking command in '/home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros': CMAKE_PREFIX_PATH=/opt/ros/iron CONDA_PROMPT_MODIFIER=(handeye) /usr/bin/cmake --build /home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros -- -j32 -l32
+[0.033s] Invoked command in '/home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron CONDA_PROMPT_MODIFIER=(handeye) /usr/bin/cmake --build /home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros -- -j32 -l32
+[0.039s] Invoking command in '/home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros': CMAKE_PREFIX_PATH=/opt/ros/iron CONDA_PROMPT_MODIFIER=(handeye) /usr/bin/cmake --install /home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros
+[0.042s] -- Install configuration: "Release"
+[0.042s] -- Execute custom install script
+[0.043s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/launch/CameraTagRun.launch.py
+[0.043s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/launch/__pycache__/CameraTagRun.launch.cpython-310.pyc
+[0.043s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/include/__init__.py
+[0.043s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/include/__pycache__/__init__.cpython-310.pyc
+[0.043s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/include/__pycache__/calibration_utils.cpython-310.pyc
+[0.043s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/include/calibration_utils.py
+[0.043s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/scripts/__init__.py
+[0.043s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/scripts/__pycache__/__init__.cpython-310.pyc
+[0.043s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/scripts/__pycache__/base2camera_calibration.cpython-310.pyc
+[0.043s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/scripts/__pycache__/end2camera_calibration.cpython-310.pyc
+[0.043s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/scripts/base2camera_calibration.py
+[0.043s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/scripts/end2camera_calibration.py
+[0.043s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/lib/apriltags_ros/base2camera_calibration.py
+[0.043s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/lib/apriltags_ros/end2camera_calibration.py
+[0.044s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/ament_index/resource_index/package_run_dependencies/apriltags_ros
+[0.044s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/ament_index/resource_index/parent_prefix_path/apriltags_ros
+[0.044s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/environment/ament_prefix_path.sh
+[0.044s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/environment/ament_prefix_path.dsv
+[0.044s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/environment/path.sh
+[0.044s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/environment/path.dsv
+[0.044s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/local_setup.bash
+[0.044s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/local_setup.sh
+[0.044s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/local_setup.zsh
+[0.044s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/local_setup.dsv
+[0.044s] -- Symlinking: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/package.dsv
+[0.049s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/ament_index/resource_index/packages/apriltags_ros
+[0.049s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/cmake/apriltags_rosConfig.cmake
+[0.049s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/cmake/apriltags_rosConfig-version.cmake
+[0.049s] -- Up-to-date symlink: /home/user/LY/camera_hand/aprilTag-ros2/install/apriltags_ros/share/apriltags_ros/package.xml
+[0.050s] Invoked command in '/home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron CONDA_PROMPT_MODIFIER=(handeye) /usr/bin/cmake --install /home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros

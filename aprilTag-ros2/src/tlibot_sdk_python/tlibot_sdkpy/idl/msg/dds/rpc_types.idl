@@ -1,0 +1,65 @@
+module tlibot {
+  module msg {
+    module dds {
+        @final
+        @autoid(SEQUENTIAL)
+        struct RequestIdentity {
+            int64 id;       // future match key
+            int64 api_id;   // rpc function id
+        };
+
+        @final
+        @autoid(SEQUENTIAL)
+        struct RequestLease {
+            int64 id;
+        };
+
+        @final
+        @autoid(SEQUENTIAL)
+        struct RequestPolicy {
+            int32 priority;      // 0~n
+            boolean noreply;    // fire-and-forget            
+        };
+
+        @final
+        @autoid(SEQUENTIAL)
+        struct RequestHeader {
+            RequestIdentity identity;
+            RequestLease lease;
+            RequestPolicy policy;
+        };
+
+        @final
+        @autoid(SEQUENTIAL)
+        struct Request {
+            RequestHeader header;
+            string parameter;
+            sequence<octet> binary;
+        };
+
+        @final
+        @autoid(SEQUENTIAL)
+        struct ResponseStatus {
+            int32 code;
+        };
+
+        @final
+        @autoid(SEQUENTIAL)
+        struct ResponseHeader {
+            RequestIdentity identity;  // 必须带回 id
+            ResponseStatus status;
+        };
+        
+
+        @final
+        @autoid(SEQUENTIAL)
+        struct Response {
+            ResponseHeader header;
+            string data;
+            sequence<octet> binary;
+        };
+        
+
+    };
+  };
+};

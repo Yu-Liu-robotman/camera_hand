@@ -1,0 +1,5 @@
+# RealSense USB 访问规则（librealsense 需要写权限，否则报 No RealSense devices were found）
+# 安装: bash install.sh --udev
+SUBSYSTEM=="usb", ATTRS{idVendor}=="8086", MODE:="0666", GROUP:="plugdev"
+SUBSYSTEM=="video4linux", ATTRS{idVendor}=="8086", MODE:="0666", GROUP:="plugdev"
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="8086", MODE:="0666", GROUP:="plugdev"

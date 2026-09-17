@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-53cf73aafaf3f9628f5c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "aruco_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_ros_uninstall-Release-9dd954a7e8d2dfa88899.json",
+					"name" : "aruco_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_ros_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_ros_utils-Release-37d98bc3d68f644465de.json",
+					"name" : "aruco_ros_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "double::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-double-Release-f21f4b5b7af27563b3e9.json",
+					"name" : "double",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "marker_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-marker_publisher-Release-4076c859587e50d4d347.json",
+					"name" : "marker_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "single::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-single-Release-daddd1653cc5b21ccdb3.json",
+					"name" : "single",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-43c2a93cdf5c1dc96d59.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/LY/camera_hand/aprilTag-ros2/build/aruco_ros",
+		"source" : "/home/user/LY/camera_hand/aprilTag-ros2/src/aruco_ros/aruco_ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

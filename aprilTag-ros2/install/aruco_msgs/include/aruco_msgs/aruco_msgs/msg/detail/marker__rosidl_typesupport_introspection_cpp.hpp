@@ -1,0 +1,1 @@
+/home/user/LY/camera_hand/aprilTag-ros2/build/aruco_msgs/rosidl_typesupport_introspection_cpp/aruco_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp

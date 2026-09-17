@@ -1,0 +1,25 @@
+camera_name: 'camera'
+camera_serial_no: ''        
+camera_profile: '1920x1080x30'
+
+# aruco 靶标码，name 同时是检测节点名和字典名
+marker_name: 'ARUCO'
+marker_id: 124
+marker_size: 0.1            # 码的边长(m)，写错会让结果整体缩比
+
+# 网络与通信参数 - ifconfig
+domain_id: 20
+net: 'enp4s0'               # 网卡名，留空 '' 为自动选择
+forward_kinematics_topic: '/base2end/pose'   # 末端位姿 PoseStamped
+
+# robot_model/base2end_pose.py
+fk_urdf: 'z1_v1.0/urdf/z1_v1.urdf'   # 相对 robot_model/ 7 自由度手臂
+fk_arm: 'right'                        # left / right
+fk_end_link: ''                       # 留空 = arm_<arm>_wrist_yaw_link
+fk_root_link: ''                      # 留空 = arm_base_link（两臂共用虚拟基座，肩心中点，不经过腰部）
+fk_hz: 50.0
+
+# hand_calibration_input = 眼在手上（相机装末端）
+# hand_calibration_output = 眼在手外（相机固定）
+detect_model: 'hand_calibration_output'
+image_topic_visual: true    # 必须 true，否则没有图像窗口，按 G/Q 无效

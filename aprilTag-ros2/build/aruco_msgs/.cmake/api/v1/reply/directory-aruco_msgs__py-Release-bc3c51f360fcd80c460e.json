@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "aruco_msgs__py",
+		"source" : "/home/user/LY/camera_hand/aprilTag-ros2/build/aruco_msgs/aruco_msgs__py"
+	}
+}

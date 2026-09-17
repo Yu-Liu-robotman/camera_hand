@@ -1,0 +1,9 @@
+/home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros/CMakeFiles/uninstall.dir
+/home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros/CMakeFiles/apriltags_ros_uninstall.dir
+/home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros/CMakeFiles/test.dir
+/home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros/CMakeFiles/edit_cache.dir
+/home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros/CMakeFiles/rebuild_cache.dir
+/home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros/CMakeFiles/list_install_components.dir
+/home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros/CMakeFiles/install.dir
+/home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros/CMakeFiles/install/local.dir
+/home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros/CMakeFiles/install/strip.dir

@@ -1,0 +1,1 @@
+/home/user/LY/camera_hand/aprilTag-ros2/build/aruco_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

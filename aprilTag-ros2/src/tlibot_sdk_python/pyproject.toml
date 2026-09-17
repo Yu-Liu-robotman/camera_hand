@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "tlibot_sdkpy"
+version = "0.1.0"
+description = ""
+authors = ["fdrobot <support@fdrobot.com>"]
+readme = "README.md"
+
+
+packages = [
+    { include = "tlibot_sdkpy" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+#pydantic = "^2.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+#[tool.setuptools.packages.find]
+#where = ["src"]

@@ -1,0 +1,1 @@
+/home/user/LY/camera_hand/aprilTag-ros2/build/apriltags_ros/ament_cmake_environment_hooks/local_setup.sh

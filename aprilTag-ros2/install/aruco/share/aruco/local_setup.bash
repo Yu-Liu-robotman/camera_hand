@@ -1,0 +1,1 @@
+/home/user/LY/camera_hand/aprilTag-ros2/build/aruco/ament_cmake_environment_hooks/local_setup.bash
