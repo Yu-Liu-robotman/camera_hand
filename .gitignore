@@ -1,8 +1,20 @@
-*.egg-info
-*.pyc
-*.pyo
-*.pyd
+# --- Python ---
+__pycache__/
+*.egg-info/
+*.egg
+*.py[cod]
+.eggs/
+build/
+dist/
+*.so
+.venv/
+venv/
 
-aprilTag-ros2/build
-aprilTag-ros2/install
-aprilTag-ros2/log
+install/
+log/
+COLCON_IGNORE
+
+.vscode/
+.idea/
+*.swp
+.DS_Store

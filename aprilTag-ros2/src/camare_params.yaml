@@ -9,13 +9,14 @@ marker_size: 0.1            # 码的边长(m)，写错会让结果整体缩比
 
 # 网络与通信参数 - ifconfig
 domain_id: 20
-net: 'enp4s0'               # 网卡名，留空 '' 为自动选择
+net: 'lo'               # 网卡名，留空 '' 为自动选择
 forward_kinematics_topic: '/base2end/pose'   # 末端位姿 PoseStamped
 
 # robot_model/base2end_pose.py
-fk_urdf: 'z1_v1.0/urdf/z1_v1.urdf'   # 相对 robot_model/ 7 自由度手臂
-fk_arm: 'right'                        # left / right
-fk_end_link: ''                       # 留空 = arm_<arm>_wrist_yaw_link
+# fk_urdf: 'z1_v1.0/urdf/z1_v1.urdf'   # 相对 robot_model/ 7 自由度手臂
+fk_urdf: 'ex01/urdf/ex01.urdf'
+fk_arm: 'right'                       # left / right
+fk_end_link: 'arm_right_elbow_joint'   # 留空 = arm_<arm>_wrist_yaw_link
 fk_root_link: ''                      # 留空 = arm_base_link（两臂共用虚拟基座，肩心中点，不经过腰部）
 fk_hz: 50.0
 
